@@ -6,4 +6,4 @@ From the letscodejavascript.com website.
 
 ## Used technologies
 
-* Jake (for Javascript task rununing)
+* Jake (for Javascript tasks running)

@@ -7,3 +7,12 @@ From the letscodejavascript.com website.
 ## Used technologies
 
 * Jake (for Javascript tasks running)
+
+
+## Todos
+
+* automated build (front-end with back-end) in one single line
+* static code analysis (Lint)
+* continuous integration
+* server-side testing
+* client-side testing

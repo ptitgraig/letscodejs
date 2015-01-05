@@ -1,9 +1,11 @@
-desc('Example 1');
-// JAKE can use dependencies so it'll load "dependency" before "example"
-task('example', ['dependency'], function(){
-    console.log('example task');
+// default task
+// JAKE can use dependencies so it'll load "lint" before "default"
+desc('Defaut jake task');
+task('default', ['lint'], function(){
+    console.log('Running default task');
 });
 
-task('dependency', function(){
-    console.log('dependency')
+task('lint', [], function(){
+    var lint = require('./build/lint/lint_runner.js');
+    lint.validateFile('Jakefile.js', {}, {});
 });
